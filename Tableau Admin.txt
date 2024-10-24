@@ -44,6 +44,106 @@ performance
 built in admin views
 generating snpashot of logs
 
+===========================
+TABLEAU UPGRADE
+============================
+
+
+Blueprint upgrade planing -> Review whats changed -> Gather configuration Information -> Review licensing and maintenance -> confirm accounts -> Take backup -> Download Tableau server setup -> Begin upgrade
+
+Authentication style
+Custom Image
+what process on which node?
+
+
+
+Take snapshot of existing configuration
+
+Blue/green upgrade:
+Cost and hardware required for new server
+Complete backup from existing environment reqired
+Seamless user intervention
+Most effective
+Loadbalance to route the traffic tableau server
+
+In place upgrade:
+suitable for smaller environment
+upgrade should be tested in lower environment
+no additional hardware required
+1 Day down time required
+
+Maintenance License required for upgrade
+
+tsm configuration get -k serverauthorizationtorun.enabled
+If true you are on ATR
+
+tsm maintenance backup --file preupgradebackup.tsbak
+
+c:\Program Data\Tableau\Tableau Server\data\tabsvc\files\backups\preupgrebackup.tsbak
+move the backup file from above default location to new path.
+
+--to takep configuration settings
+
+tsm  settings export 
+
+pre flight check commands 
+
+tsm maintenance preflight-check permissions 
+tsm maintenance preflight-check ports
+
+-----------------------------------------
+each node needs to be communicate to every other node
+Install locations need to be same on every node
+
+verify all the contents, in case of issue, run the below.
+
+tsm maintenance reindex-search
+
+tsm settings import --import-config-file c:\users\juee\documents\output_file.json
+
+tsm configuration get -k basefilepath.backuprestore
+
+tsm stop
+tsm maintenance restore --file <file_name>
+tsm start
+verify you can login and contents in place
+If data/anything is missing
+
+tsm maintenance reindex-search
+
+-------------------------------------
+Details required for creating the case 
+
+Tableau server version
+OS
+inplce or bluegreen
+logs
+
+Install issues prior to tsm intilization
+c:\programData\Tableau\Tableau Server\logs 
+OR 
+/var/opt/tableau/tableau_server/logs
+
+Install issues after tsm intilization and upgrade
+
+TSM Logs
+
+c:\users\<user>\tableau\tsm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
