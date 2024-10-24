@@ -1,0 +1,150 @@
+
+https://absentdata.com/power-bi/how-to-import-pdf-tables-in-power-bi/
+https://kb.tableau.com/articles/Issue/error-not-enough-memory-crosstab-view
+
+https://www.holistics.io/blog/tableau-limitations-and-top-alternatives/
+
+
+https://www.javatpoint.com/advantages-and-disadvantages-of-tableau
+
+https://www.javatpoint.com/advantages-and-disadvantages-of-tableau
+https://www.sam-solutions.com/blog/tableau-software-review-pros-and-cons-of-a-bi-solution-for-data-visualization/
+
+https://www.knowledgehut.com/blog/business-intelligence-and-visualization/tableau-advantages-disadvantages
+
+https://kb.tableau.com/articles/Issue/error-not-enough-memory-crosstab-view
+
+Advantage
+------------
+
+more than 100 data connectors
+advanced customization on visuals
+excellent datablending
+performance also very good
+Advanced geographical maps
+Excellent sharing and publishing
+
+Tableau Limitation
+-------------------
+1.Though the Tableau very rich in visulization, unlike powerbi, custom visuals cannot be import...it has to recreated
+2.developer should have same screen resolution as viewer otherwise the format may get disturbed
+3.Only a viz tool...For data cleaning and other data preparation activities...need tool like "Tableau Prep"
+4.Tableau Server which can  $175,000 for an 8 core option and $35 dollars per user. Alternatively, you can use Tableau Online which is limited but is $35 per user. This can accumulate if you are trying to have a large number of users access reports.
+5.From tableau 2019 can display upto 50 values as columns and 50 values as row, before that only 16 columns
+6.No automatic schedule refreshing of reports
+7.Apply same formating for multiple files...no feature is avaialble..have to format each field separately
+
+Challanges
+----------
+1.display only 16 columns...create  2 sheets with 16 each...create a dasboard with 2 sheets side by side or below to one another
+2.Tableau Desktop is unable to render more than 1 million panes in a single view.
+   Error "not enough memory to display ... rows and ... columns" Creating Crosstab View
+  Resolution: Filter the data so there are fewer panes in the view. For more information, see Filtering in Tableau Help.
+
+
+
+
+
+
+.twbx
+
+one extract 12 am...one extract 6 am...workbook single.. has 2 sheets(dashboard)...connections are 2? how you make scheduling?
+
+blending???
+--------------------------------------------------------------------
+
+TED is 10 GB.... In my laptop has only 4 RAM...I am unable to create the extract file...? how can you deploy in production(which has 125 GB)?
+
+just extract the metadata/empty file ...then deploy....
+
+--------------------------------
+Tableau Prep
+
+What are the steps to be followed for waterfall chart?....
+
+shells...
+
+uptrending...down trending....
+
+
+Normal filter...context filter? temp table built in internal memory....
+what is the relation between these 2?
+
+Comparison between tableau and powerbi?
+
+how to establish cascading Prompt? quick filter....should have relations
+
+difference between sets and bins?
+
+lods?
+
+rowlevel security?
+
+site role in tableau server?
+
+server admin?
+
+how to take backup and migration?
+
+minor upgradation? major upgradation?
+
+2000 19.1
+
+
+actual vs budget comparison?
+side by side....bar in bar.....bullet chart?
+
+reference line?
+
+customized charts in powerbi?
+
+TDS....tableau datasource?
+
+data blending?.....
+
+PowerBi cannot connect at the same time in MS analysis and excel?
+
+
+Creator - full set of desktop & Server functionality
+Explorer
+Viewer
+
+Installation & configuration
+Managing user access & permission
+Monitoring & Optimizing Performance
+Trouble shoot and resolving issues
+Backup & restore
+Managing content on Published content
+Managing Licenses & Upgrade
+
+
+Can create User accounts
+Import from ldap
+server admin
+site admin
+publisher
+Interactor
+viewer, Unlicensed
+
+
+RLS - admin can control the access
+
+Tableau server performance monitoring tool
+Logs
+Tableau resource monitoring tool
+Monitor the status of the servies
+Monitor the usage of published contents
+
+Notification alert- to notify users/groups
+
+server federation - Process of intergrating external data sources...using connectors and drivers
+
+
+Table server sites are logical grouping of users, contents .... site admin...
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+Tableau server 2021.4.4 64 bit windows
+
+Windows server
+port: 8060
+database: workgroup
+
+
+Workbook
+
+Server Admin
+Publisher/Explorer
+Creator
+Viewer
+
+Tableau Prep Builder 2021.4
+Schedule
+subciption
+flow
+
+set project leader - will get admin privilege for the particular project/folder
+
+workbook
+----------
+download summary
+add comment
+view comment
+Run explain data
+download full data
+Web edit
+crete or refresh metrics
+
+
+Data sources
+-------------
+view
+connect
+download
+overwrite
+save as
+move
+delete
+set permission
+
+Data Roles
+--------
+view
+overwrite
+move 
+delete
+
+Flows
+-----------
+
+
+Edit workbook
+Edit in Tableau Desktop
+Refresh Extracts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

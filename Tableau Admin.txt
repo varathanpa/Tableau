@@ -1,0 +1,68 @@
+
+Server Licensing
+
+core based license ??
+user based linces ???
+
+Environment setup
+Installation
+
+Execute the installable...
+5 windows server....each 1 tb of size...
+2 primary server... app server...gateway server
+3 bagrounder server....
+
+tabcmd...tableau command line
+
+Tableau Services Manager(TSM) Overview
+Server Process configuration
+Multi node deployment
+
+Server upgrade
+
+Tableau online
+Tableauonline bridge
+
+Publishing workbooks
+Publishing data source
+Schedules: Extracts, subscriptions
+Creating site and projects
+User Roles
+adding new users
+version control
+
+
+Data Driven Alerts
+Javascript APT
+Row level security
+Web authoring-editing dashboards
+TSM command line utility
+Content migration
+
+server status
+performance
+built in admin views
+generating snpashot of logs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
