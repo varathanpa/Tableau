@@ -145,6 +145,106 @@ Table server sites are logical grouping of users, contents .... site admin...
 
 
 
+Users
+Groups
+Schedules
+Jobs
+Tasks
+Site Status
+Settings
+
+
+Create
+
+Project
+Workbook
+Flow
+
+connection 
+live
+extract
+
+cardinality
+referential integrity
+
+Datasource
+-----------------------
+On this Site
+Files
+Connectors
+Dashboard Starters
+
+
+
+Data Type
+Geo Graphic Role
+
+Id fields as also dimension
+
+Dimension can be created as Hierarchy
+
+Add table calculation
+quick Table Calculation
+
+
+Formatting
+Automatic
+Number
+Currency
+Percentage
+Scientific
+
+Filter
+---------
+Add to context
+Apply to worksheets
+
+Apply to worksheets
+show apply button
+Format Filter and Sets
+Single Value
+Multi Value
+Wildcard Match
+
+Only Relevant Values
+
+
+LOD Calculation
+
+
+Create Calculated Field
+
+Parameters in Tableau allow users to define dynamic values
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
