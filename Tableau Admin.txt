@@ -1,5 +1,5 @@
 
-Server Licensing
+Server Licensing: Version 2023.3
 
 core based license ??
 user based linces ???
